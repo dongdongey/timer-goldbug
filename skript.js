@@ -4,7 +4,7 @@ let time
 while (true) {
     setTimeout(() => {
     console.log("1초 후에 실행됨");
-    if (document.getElementById(`time${timecount}`-1)){
+    if (timecount >= 1)){
         document.getElementById(`time${timecount}`-1).remove()}
     timecount+=1;
     time = document.createElement("h1");
